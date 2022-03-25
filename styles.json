@@ -1,0 +1,259 @@
+{
+    "responsive": {
+        "largeTitle": {
+            "size": 37,
+            "lineHeight": 44,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 920,
+            "width": 100
+        },
+        "title1": {
+            "size": 28,
+            "lineHeight": 34,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 920,
+            "width": 100
+        },
+        "title2": {
+            "size": 22,
+            "lineHeight": 28,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 920,
+            "width": 100
+        },
+        "title3": {
+            "size": 19,
+            "lineHeight": 24,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 920,
+            "width": 100
+        },
+        "preamble": {
+            "size": 20,
+            "lineHeight": 26,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "headline": {
+            "size": 17,
+            "lineHeight": 22,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 660,
+            "width": 100
+        },
+        "body": {
+            "size": 17,
+            "lineHeight": 22,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "callout": {
+            "size": 16,
+            "lineHeight": 20,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "subhead1": {
+            "size": 15,
+            "lineHeight": 18,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 660,
+            "width": 100
+        },
+        "subhead2": {
+            "size": 15,
+            "lineHeight": 18,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "footnote": {
+            "size": 13,
+            "lineHeight": 16,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+
+        "caption1": {
+            "size": 12,
+            "lineHeight": 16,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 660,
+            "width": 100
+        },
+        "caption2": {
+            "size": 11,
+            "lineHeight": 14,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "label": {
+            "size": 11,
+            "lineHeight": 11,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 660,
+            "width": 100
+        }
+    },
+    "tv": {
+        "largeTitle": {
+            "size": 75,
+            "lineHeight": 88,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 920,
+            "width": 100
+        },
+        "title1": {
+            "size": 75,
+            "lineHeight": 96,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 920,
+            "width": 100
+        },
+        "title2": {
+            "size": 56,
+            "lineHeight": 66,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 920,
+            "width": 100
+        },
+        "title3": {
+            "size": 47,
+            "lineHeight": 56,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 920,
+            "width": 100
+        },
+        "preamble": {
+            "size": 42,
+            "lineHeight": 54,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "headline": {
+            "size": 36,
+            "lineHeight": 46,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 660,
+            "width": 100
+        },
+        "body": {
+            "size": 29,
+            "lineHeight": 38,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "callout": {
+            "size": 31,
+            "lineHeight": 38,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "subhead1": {
+            "size": 29,
+            "lineHeight": 36,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 660,
+            "width": 100
+        },
+        "subhead2": {
+            "size": 29,
+            "lineHeight": 36,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "footnote": {
+            "size": 29,
+            "lineHeight": 36,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "caption1": {
+            "size": 25,
+            "lineHeight": 32,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 660,
+            "width": 100
+        },
+        "caption2": {
+            "size": 23,
+            "lineHeight": 30,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 400,
+            "width": 100
+        },
+        "label": {
+            "size": 23,
+            "lineHeight": 23,
+            "letterSpacing": null,
+            "webkit-font-smoothing": "auto",
+            "moz-osx-font-smoothing": "auto",
+            "weight": 660,
+            "width": 100
+        }
+    }
+}
