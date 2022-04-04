@@ -3,7 +3,7 @@
         "largeTitle": {
             "size": 37,
             "lineHeight": 1.2,
-            "explicitLineHeight": 20,
+            "explicitLineHeight": 44,
             "letterSpacing": 0.02,
             "webkit-font-smoothing": "auto",
             "moz-osx-font-smoothing": "auto",
