@@ -104,7 +104,7 @@
             "size": 13,
             "lineHeight": 1.25,
             "explicitLineHeight": 16,
-            "letterSpacing": null,
+            "letterSpacing": 0.0025,
             "webkit-font-smoothing": "auto",
             "moz-osx-font-smoothing": "auto",
             "weight": 400,
