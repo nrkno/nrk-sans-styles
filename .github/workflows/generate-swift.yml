@@ -1,0 +1,15 @@
+name: Generate Swift font definitions
+on:
+  push:
+    branches:
+      - main
+jobs:
+  generate-ios-styles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const generateSwift = require('./ios/iosgen.js');
+            generateSwift(github, context, exec)
