@@ -148,7 +148,7 @@
             "lineHeight": 1.15,
             "explicitLineHeight": 86,
             "letterSpacing": null,
-            "webkit-font-smoothing": "grayscale",
+            "webkit-font-smoothing": "antialiased",
             "moz-osx-font-smoothing": "grayscale",
             "weight": 800,
             "width": 100
