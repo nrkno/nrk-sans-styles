@@ -29,6 +29,11 @@ public extension FontStyle {
         return UIFont.Weight(rawValue: CGFloat(weightValue))
     }
 
+    public var lineHeightMultiple: CGFloat {
+        guard let lineHeightEm = lineHeightEm else { return 1 }
+        return lineHeightEm / 1.2
+    }
+
     public var kerning: CGFloat? {
         guard let letterSpacingEm = letterSpacingEm else { return nil }
         return pointSize * letterSpacingEm

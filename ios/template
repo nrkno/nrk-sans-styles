@@ -19,7 +19,7 @@ public enum FontStyle: Hashable, CaseIterable {
         }
     }
 
-    public var lineHeightMultiple: CGFloat? {
+    public var lineHeightEm: CGFloat? {
         switch self {<%lineHeightiOS%>
         }
     }
@@ -47,7 +47,7 @@ public enum FontStyle: Hashable, CaseIterable {
         }
     }
 
-    public var lineHeightMultiple: CGFloat? {
+    public var lineHeightEm: CGFloat? {
         switch self {<%lineHeighttvOS%>
         }
     }
