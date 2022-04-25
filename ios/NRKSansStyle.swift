@@ -117,7 +117,7 @@ public enum FontStyle: Hashable, CaseIterable {
         }
     }
 
-    public var lineHeightMultiple: CGFloat? {
+    public var lineHeightEm: CGFloat? {
         switch self {
         case .largeTitle:
             return 1.2
@@ -299,7 +299,7 @@ public enum FontStyle: Hashable, CaseIterable {
         }
     }
 
-    public var lineHeightMultiple: CGFloat? {
+    public var lineHeightEm: CGFloat? {
         switch self {
         case .largeTitle:
             return 1.15
