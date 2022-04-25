@@ -5,7 +5,7 @@ async function fetchFile(github, context, path) {
         owner: context.repo.owner,
         repo: context.repo.repo,
         path: path,
-        ref: "feature/swift"
+        ref: "main"
     })
     const { data: data } = await github.request(content.data.download_url)
     return {
