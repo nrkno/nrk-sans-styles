@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 #if os(iOS)
-enum FontStyle {
+public enum FontStyle {
     case largeTitle
     case title1
     case title2
@@ -18,7 +18,7 @@ enum FontStyle {
     case caption2
     case label
 
-    var fontStyle: UIFont.TextStyle {
+    public var fontStyle: UIFont.TextStyle {
         switch self {
         case .largeTitle:
             return .title1
@@ -51,7 +51,7 @@ enum FontStyle {
         }
     }
 
-    var fontWeight: CGFloat {
+    public var fontWeight: CGFloat {
         switch self {
         case .largeTitle:
             return 800
@@ -84,7 +84,7 @@ enum FontStyle {
         }
     }
 
-    var pointSize: CGFloat {
+    public var pointSize: CGFloat {
         switch self {
         case .largeTitle:
             return 37
@@ -117,7 +117,7 @@ enum FontStyle {
         }
     }
 
-    var lineHeight: CGFloat? {
+    public var lineHeight: CGFloat? {
         switch self {
         case .largeTitle:
             return 1.2
@@ -150,7 +150,7 @@ enum FontStyle {
         }
     }
 
-    var kerning: CGFloat? {
+    public var kerning: CGFloat? {
         switch self {
         case .largeTitle:
             return 0.02
@@ -184,7 +184,7 @@ enum FontStyle {
     }
 }
 #elif os(tvOS)
-enum FontStyle {
+public enum FontStyle {
     case largeTitle
     case title1
     case title2
@@ -200,7 +200,7 @@ enum FontStyle {
     case caption2
     case label
 
-    var fontStyle: UIFont.TextStyle {
+    public var fontStyle: UIFont.TextStyle {
         switch self {
         case .largeTitle:
             return .title1
@@ -233,7 +233,7 @@ enum FontStyle {
         }
     }
 
-    var fontWeight: CGFloat {
+    public var fontWeight: CGFloat {
         switch self {
         case .largeTitle:
             return 800
@@ -266,7 +266,7 @@ enum FontStyle {
         }
     }
 
-    var pointSize: CGFloat {
+    public var pointSize: CGFloat {
         switch self {
         case .largeTitle:
             return 75
@@ -299,7 +299,7 @@ enum FontStyle {
         }
     }
 
-    var lineHeight: CGFloat? {
+    public var lineHeight: CGFloat? {
         switch self {
         case .largeTitle:
             return 1.15
@@ -332,7 +332,7 @@ enum FontStyle {
         }
     }
 
-    var kerning: CGFloat? {
+    public var kerning: CGFloat? {
         switch self {
         case .largeTitle:
             return nil
