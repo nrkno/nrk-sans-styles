@@ -219,7 +219,7 @@ public enum FontStyle: Hashable, CaseIterable {
         case .callout:
             return .callout
         case .subhead1:
-            return .subhead1
+            return .subheadline
         case .subhead2:
             return .subheadline
         case .footnote:
@@ -299,7 +299,7 @@ public enum FontStyle: Hashable, CaseIterable {
         }
     }
 
-    public var lineHeight: CGFloat? {
+    public var lineHeightMultiple: CGFloat? {
         switch self {
         case .largeTitle:
             return 1.15
@@ -332,7 +332,7 @@ public enum FontStyle: Hashable, CaseIterable {
         }
     }
 
-    public var kerning: CGFloat? {
+    public var letterSpacingEm: CGFloat? {
         switch self {
         case .largeTitle:
             return nil
