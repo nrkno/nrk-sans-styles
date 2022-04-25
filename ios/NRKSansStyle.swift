@@ -18,9 +18,8 @@ enum FontStyle {
     case caption2
     case label
 
-
     var fontStyle: UIFont.TextStyle {
-        switch self { 
+        switch self {
         case .largeTitle:
             return .title1
         case .title1:
@@ -53,7 +52,7 @@ enum FontStyle {
     }
 
     var fontWeight: CGFloat {
-        switch self { 
+        switch self {
         case .largeTitle:
             return 800
         case .title1:
@@ -86,7 +85,7 @@ enum FontStyle {
     }
 
     var pointSize: CGFloat {
-        switch self { 
+        switch self {
         case .largeTitle:
             return 37
         case .title1:
@@ -119,7 +118,7 @@ enum FontStyle {
     }
 
     var lineHeight: CGFloat? {
-        switch self { 
+        switch self {
         case .largeTitle:
             return 1.2
         case .title1:
@@ -152,7 +151,7 @@ enum FontStyle {
     }
 
     var kerning: CGFloat? {
-        switch self { 
+        switch self {
         case .largeTitle:
             return 0.02
         case .title1:
@@ -201,9 +200,8 @@ enum FontStyle {
     case caption2
     case label
 
-
     var fontStyle: UIFont.TextStyle {
-        switch self { 
+        switch self {
         case .largeTitle:
             return .title1
         case .title1:
@@ -236,7 +234,7 @@ enum FontStyle {
     }
 
     var fontWeight: CGFloat {
-        switch self { 
+        switch self {
         case .largeTitle:
             return 800
         case .title1:
@@ -269,7 +267,7 @@ enum FontStyle {
     }
 
     var pointSize: CGFloat {
-        switch self { 
+        switch self {
         case .largeTitle:
             return 75
         case .title1:
@@ -302,7 +300,7 @@ enum FontStyle {
     }
 
     var lineHeight: CGFloat? {
-        switch self { 
+        switch self {
         case .largeTitle:
             return 1.15
         case .title1:
@@ -335,7 +333,7 @@ enum FontStyle {
     }
 
     var kerning: CGFloat? {
-        switch self { 
+        switch self {
         case .largeTitle:
             return nil
         case .title1:
