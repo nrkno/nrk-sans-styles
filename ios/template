@@ -2,57 +2,57 @@ import Foundation
 import UIKit
 
 #if os(iOS)
-enum FontStyle {
+public enum FontStyle {
 <%casesiOS%>
-    var fontStyle: UIFont.TextStyle {
+    public var fontStyle: UIFont.TextStyle {
         switch self {<%fontStyleiOS%>
         }
     }
 
-    var fontWeight: CGFloat {
+    public var fontWeight: CGFloat {
         switch self {<%fontWeightiOS%>
         }
     }
 
-    var pointSize: CGFloat {
+    public var pointSize: CGFloat {
         switch self {<%pointSizeiOS%>
         }
     }
 
-    var lineHeight: CGFloat? {
+    public var lineHeight: CGFloat? {
         switch self {<%lineHeightiOS%>
         }
     }
 
-    var kerning: CGFloat? {
+    public var kerning: CGFloat? {
         switch self {<%kerningiOS%>
         }
     }
 }
 #elif os(tvOS)
-enum FontStyle {
+public enum FontStyle {
 <%casestvOS%>
-    var fontStyle: UIFont.TextStyle {
+    public var fontStyle: UIFont.TextStyle {
         switch self {<%fontStyletvOS%>
         }
     }
 
-    var fontWeight: CGFloat {
+    public var fontWeight: CGFloat {
         switch self {<%fontWeighttvOS%>
         }
     }
 
-    var pointSize: CGFloat {
+    public var pointSize: CGFloat {
         switch self {<%pointSizetvOS%>
         }
     }
 
-    var lineHeight: CGFloat? {
+    public var lineHeight: CGFloat? {
         switch self {<%lineHeighttvOS%>
         }
     }
 
-    var kerning: CGFloat? {
+    public var kerning: CGFloat? {
         switch self {<%kerningtvOS%>
         }
     }
