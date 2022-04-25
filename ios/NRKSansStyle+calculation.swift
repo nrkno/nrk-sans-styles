@@ -29,8 +29,8 @@ public extension FontStyle {
         return UIFont.Weight(rawValue: CGFloat(weightValue))
     }
 
-    public var lineHeightMultiple: CGFloat {
-        guard let lineHeightEm = lineHeightEm else { return 1 }
+    public var lineHeightMultiple: CGFloat? {
+        guard let lineHeightEm = lineHeightEm else { return nil }
         return lineHeightEm / 1.2
     }
 
