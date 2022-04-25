@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 #if os(iOS)
-public enum FontStyle {
+public enum FontStyle: Hashable, CaseIterable {
 <%casesiOS%>
     public var fontStyle: UIFont.TextStyle {
         switch self {<%fontStyleiOS%>
@@ -19,18 +19,18 @@ public enum FontStyle {
         }
     }
 
-    public var lineHeight: CGFloat? {
+    public var lineHeightMultiple: CGFloat? {
         switch self {<%lineHeightiOS%>
         }
     }
 
-    public var kerning: CGFloat? {
+    public var letterSpacingEm: CGFloat? {
         switch self {<%kerningiOS%>
         }
     }
 }
-#elif os(tvOS)
-public enum FontStyle {
+#elseif os(tvOS)
+public enum FontStyle: Hashable, CaseIterable {
 <%casestvOS%>
     public var fontStyle: UIFont.TextStyle {
         switch self {<%fontStyletvOS%>
@@ -47,12 +47,12 @@ public enum FontStyle {
         }
     }
 
-    public var lineHeight: CGFloat? {
+    public var lineHeightMultiple: CGFloat? {
         switch self {<%lineHeighttvOS%>
         }
     }
 
-    public var kerning: CGFloat? {
+    public var letterSpacingEm: CGFloat? {
         switch self {<%kerningtvOS%>
         }
     }

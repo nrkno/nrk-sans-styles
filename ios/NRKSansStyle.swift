@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 #if os(iOS)
-public enum FontStyle {
+public enum FontStyle: Hashable, CaseIterable {
     case largeTitle
     case title1
     case title2
@@ -37,7 +37,7 @@ public enum FontStyle {
         case .callout:
             return .callout
         case .subhead1:
-            return .subhead1
+            return .subheadline
         case .subhead2:
             return .subheadline
         case .footnote:
@@ -117,7 +117,7 @@ public enum FontStyle {
         }
     }
 
-    public var lineHeight: CGFloat? {
+    public var lineHeightMultiple: CGFloat? {
         switch self {
         case .largeTitle:
             return 1.2
@@ -150,7 +150,7 @@ public enum FontStyle {
         }
     }
 
-    public var kerning: CGFloat? {
+    public var letterSpacingEm: CGFloat? {
         switch self {
         case .largeTitle:
             return 0.02
@@ -183,8 +183,8 @@ public enum FontStyle {
         }
     }
 }
-#elif os(tvOS)
-public enum FontStyle {
+#elseif os(tvOS)
+public enum FontStyle: Hashable, CaseIterable {
     case largeTitle
     case title1
     case title2

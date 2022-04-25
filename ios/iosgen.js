@@ -28,7 +28,7 @@ function generateFontStyle(styleDef) {
     const specialTypes = {
         "largeTitle": "title1",
         "preamble": "body",
-        "subhead": "subheadline",
+        "subhead1": "subheadline",
         "subhead2": "subheadline",
         "label": "subheadline"
     }
