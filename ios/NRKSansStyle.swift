@@ -1,3 +1,9 @@
+/**
+ * AUTOMATICALLY GENERATED FILE
+ *
+ * This file has been automatically generated.
+ */
+
 import Foundation
 import UIKit
 
