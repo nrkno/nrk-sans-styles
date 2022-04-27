@@ -44,7 +44,7 @@ public extension FontStyle {
         }
 
         let lower = anchors[lowerAnchor]
-        let upper = anchors[lowerAnchor + 1]
+        let upper = (lowerAnchor + 1 < anchors.count) ? anchors[lowerAnchor + 1] : lower
 
         let delta = Float(intWeight - lower.0) / (Float(upper.0 - lower.0))
         let weightValue = lower.1 + ((upper.1 - lower.1) * delta)
