@@ -127,13 +127,15 @@ function createDefinition(styles) {
 }
 
 async function generateSwift(github, context, exec) {
-    console.log("Context:");
-    console.log(context);
-
     const styles = JSON.parse(fs.readFileSync('styles.json', 'utf8'));
 
     const originalFile = await fetchFile(github, context, 'ios/NRKSansStyle.swift');
     const newData = createDefinition(styles);
+
+    if (newData == originalFile.data) {
+        console.log("No changes in generated file");
+        return;
+    }
 
     const response = await github.rest.repos.createOrUpdateFileContents({
         owner: context.repo.owner,
