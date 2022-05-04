@@ -152,7 +152,7 @@ public enum FontStyle: Hashable, CaseIterable {
         case .caption2:
             return 1.3
         case .label:
-            return 1
+            return 1.2
         }
     }
 
@@ -334,7 +334,7 @@ public enum FontStyle: Hashable, CaseIterable {
         case .caption2:
             return 1.35
         case .label:
-            return 1
+            return 1.2
         }
     }
 
