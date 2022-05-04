@@ -133,8 +133,8 @@
         },
         "label": {
             "size": 11,
-            "lineHeight": 1,
-            "explicitLineHeight": 11,
+            "lineHeight": 1.2,
+            "explicitLineHeight": 13,
             "letterSpacing": 0.01,
             "webkit-font-smoothing": "antialiased",
             "moz-osx-font-smoothing": "grayscale",
@@ -275,8 +275,8 @@
         },
         "label": {
             "size": 23,
-            "lineHeight": 1,
-            "explicitLineHeight": 23,
+            "lineHeight": 1.2,
+            "explicitLineHeight": 28,
             "letterSpacing": 0.02,
             "webkit-font-smoothing": "antialiased",
             "moz-osx-font-smoothing": "grayscale",
