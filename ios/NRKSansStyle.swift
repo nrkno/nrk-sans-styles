@@ -320,7 +320,7 @@ public enum FontStyle: Hashable, CaseIterable {
         case .headline:
             return 1.25
         case .body:
-            return 1.4
+            return 1.35
         case .callout:
             return 1.35
         case .subhead1:
