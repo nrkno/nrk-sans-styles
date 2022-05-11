@@ -205,8 +205,8 @@
         },
         "body": {
             "size": 29,
-            "lineHeight": 1.4,
-            "explicitLineHeight": 41,
+            "lineHeight": 1.35,
+            "explicitLineHeight": 39,
             "letterSpacing": -0.002,
             "webkit-font-smoothing": "antialiased",
             "moz-osx-font-smoothing": "grayscale",
