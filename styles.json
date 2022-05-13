@@ -102,7 +102,7 @@
         },
         "footnote": {
             "size": 13,
-            "lineHeight": 1.25,
+            "lineHeight": 1.35,
             "explicitLineHeight": 16,
             "letterSpacing": 0.0025,
             "webkit-font-smoothing": "antialiased",
