@@ -146,7 +146,7 @@ public enum FontStyle: Hashable, CaseIterable {
         case .subhead2:
             return 1.2
         case .footnote:
-            return 1.25
+            return 1.35
         case .caption1:
             return 1.3
         case .caption2:
