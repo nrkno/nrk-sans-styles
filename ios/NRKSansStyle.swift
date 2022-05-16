@@ -167,7 +167,7 @@ public enum FontStyle: Hashable, CaseIterable {
         case .title3:
             return 0.015
         case .preamble:
-            return -0.0075
+            return -0.01
         case .headline:
             return 0.0075
         case .body:
