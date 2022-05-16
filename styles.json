@@ -44,7 +44,7 @@
             "size": 20,
             "lineHeight": 1.3,
             "explicitLineHeight": 26,
-            "letterSpacing": -0.0075,
+            "letterSpacing": -0.01,
             "webkit-font-smoothing": "antialiased",
             "moz-osx-font-smoothing": "grayscale",
             "weight": 400,
