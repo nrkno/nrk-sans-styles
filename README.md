@@ -13,10 +13,9 @@ As part of the build pipeline, the platforms should fetch the font-definitions f
 The definitions under `"tv"` should be used in all large-screen applications — smart TV, Apple TV, Android TV, etc. The definitions under `"responsive"` should be used for everything else.
 
 - `size`, int: The point size
-- `lineHeight`, int: The **total** line height (_point size_ plus _leading_)
-- `letterSpacing`, float, optional: Floating point percentage
-- `"webkit-font-smoothing"`, string: CSS property
-- `"moz-osx-font-smoothing"`, string: CSS property
+- `lineHeight`, float, Relative to Size
+- `explicitLineHeight`, int: The **total** lineheight (Android TV Compose only)
+- `letterSpacing`, float, Relative to Size
 - `"weight"`, int
 - `"width"`, int
 
@@ -24,24 +23,22 @@ The definitions under `"tv"` should be used in all large-screen applications —
 {
     "responsive": {
         "title9": {
-            "size": 37,
-            "lineHeight": 44,
-            "letterSpacing": 0.25,
-            "webkit-font-smoothing": "auto",
-            "moz-osx-font-smoothing": "auto",
-            "weight": 920,
+            "size": 29,
+            "lineHeight": 1.20,
+            "explicitLineHeight": 35,
+            "letterSpacing": 0.004,
+            "weight": 660,
             "width": 100
         },
         { /* ... */ }
     },
     "tv": {
         "title9": {
-            "size": 75,
-            "lineHeight": 88,
-            "letterSpacing": 1.25,
-            "webkit-font-smoothing": "auto",
-            "moz-osx-font-smoothing": "auto",
-            "weight": 920,
+            "size": 29,
+            "lineHeight": 1.3,
+            "explicitLineHeight": 38,
+            "letterSpacing": -0.002,
+            "weight": 400,
             "width": 100
         },
         { /* ... */ }
