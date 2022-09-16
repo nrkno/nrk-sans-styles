@@ -8,7 +8,6 @@ let package = Package(
   products: [
     .library(
       name: "NRKSans",
-      type: .static,
       targets: ["NRKSans"]
     )
   ],
