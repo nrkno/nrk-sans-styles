@@ -30,7 +30,8 @@ function generateFontStyle(styleDef) {
         "preamble": "body",
         "subhead1": "subheadline",
         "subhead2": "subheadline",
-        "label": "subheadline"
+        "label": "subheadline",
+        "icon": "subheadline"
     }
 
     var buffer = "";
