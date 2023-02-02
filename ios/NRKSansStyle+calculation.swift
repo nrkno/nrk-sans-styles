@@ -54,11 +54,11 @@ public extension FontStyle {
     var lineHeightMultiple: CGFloat? {
         /// The NSAttributedString property 'lineHeightMultiple' is a multiple
         /// of the **DEFAULT** line height, embedded in the font. For NRK Sans, the
-        /// default line height is 120% of the point size. So the lineHeightMultiple
-        /// property is a factor on 120%. If *NO* space between the lines is desired,
-        /// lineHeightMultiple must be 0.833, because 0.833 * 120 = 100.
+        /// default line height is 120% of the point size. The label will be clipped
+        /// if `lineHeightMultiple` is less than 1, so we cannot return a lower value.
+        /// This means that **SOME** spacing between lines is unavoidable.
         guard let lineHeightEm = lineHeightEm else { return nil }
-        return lineHeightEm / 1.2
+        return max(1, lineHeightEm / 1.2)
     }
 
     var kerning: CGFloat? {
