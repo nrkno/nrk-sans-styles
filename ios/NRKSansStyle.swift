@@ -56,7 +56,7 @@ public enum FontStyle: Hashable, CaseIterable {
         case .label:
             return .subheadline
         case .icon:
-            return .icon
+            return .subheadline
         }
     }
 
@@ -249,7 +249,7 @@ public enum FontStyle: Hashable, CaseIterable {
         case .label:
             return .subheadline
         case .icon:
-            return .icon
+            return .subheadline
         }
     }
 
