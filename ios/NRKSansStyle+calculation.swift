@@ -57,8 +57,11 @@ public extension FontStyle {
         /// default line height is 120% of the point size. The label will be clipped
         /// if `lineHeightMultiple` is less than 1, so we cannot return a lower value.
         /// This means that **SOME** spacing between lines is unavoidable.
+        ///
+        /// However, a `lineHeightEm` of 1.15 (which results in a `lineHeightMultiple` of
+        /// (1.15 / 1.2 =~ 0.95) doesn't seem to have any adverse effects.
         guard let lineHeightEm = lineHeightEm else { return nil }
-        return max(1, lineHeightEm / 1.2)
+        return max(0.95, lineHeightEm / 1.2)
     }
 
     var kerning: CGFloat? {
