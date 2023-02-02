@@ -23,6 +23,7 @@ public enum FontStyle: Hashable, CaseIterable {
     case caption1
     case caption2
     case label
+    case icon
 
     public var fontStyle: UIFont.TextStyle {
         switch self {
@@ -54,6 +55,8 @@ public enum FontStyle: Hashable, CaseIterable {
             return .caption2
         case .label:
             return .subheadline
+        case .icon:
+            return .icon
         }
     }
 
@@ -86,6 +89,8 @@ public enum FontStyle: Hashable, CaseIterable {
         case .caption2:
             return 400
         case .label:
+            return 660
+        case .icon:
             return 660
         }
     }
@@ -120,6 +125,8 @@ public enum FontStyle: Hashable, CaseIterable {
             return 11
         case .label:
             return 11
+        case .icon:
+            return 11
         }
     }
 
@@ -153,6 +160,8 @@ public enum FontStyle: Hashable, CaseIterable {
             return 1.3
         case .label:
             return 1.1
+        case .icon:
+            return 0.74
         }
     }
 
@@ -186,6 +195,8 @@ public enum FontStyle: Hashable, CaseIterable {
             return nil
         case .label:
             return 0.1
+        case .icon:
+            return 0.0025
         }
     }
 }
@@ -205,6 +216,7 @@ public enum FontStyle: Hashable, CaseIterable {
     case caption1
     case caption2
     case label
+    case icon
 
     public var fontStyle: UIFont.TextStyle {
         switch self {
@@ -236,6 +248,8 @@ public enum FontStyle: Hashable, CaseIterable {
             return .caption2
         case .label:
             return .subheadline
+        case .icon:
+            return .icon
         }
     }
 
@@ -268,6 +282,8 @@ public enum FontStyle: Hashable, CaseIterable {
         case .caption2:
             return 400
         case .label:
+            return 660
+        case .icon:
             return 660
         }
     }
@@ -302,6 +318,8 @@ public enum FontStyle: Hashable, CaseIterable {
             return 23
         case .label:
             return 23
+        case .icon:
+            return 20
         }
     }
 
@@ -335,6 +353,8 @@ public enum FontStyle: Hashable, CaseIterable {
             return 1.35
         case .label:
             return 1.2
+        case .icon:
+            return 0.68
         }
     }
 
@@ -368,6 +388,8 @@ public enum FontStyle: Hashable, CaseIterable {
             return -0.002
         case .label:
             return 0.07
+        case .icon:
+            return 0.0025
         }
     }
 }
