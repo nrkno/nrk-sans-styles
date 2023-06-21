@@ -120,6 +120,14 @@
             "letterSpacing": 0.0025,
             "weight": 660,
             "width": 100
+        },
+        "iconLarge": {
+            "size": 13,
+            "lineHeight": 0.74,
+            "explicitLineHeight": 9.62,
+            "letterSpacing": 0.0025,
+            "weight": 660,
+            "width": 100
         }
     },
     "tv": {
@@ -239,6 +247,14 @@
             "size": 20,
             "lineHeight": 0.68,
             "explicitLineHeight": 13.6,
+            "letterSpacing": 0.0025,
+            "weight": 660,
+            "width": 100
+        },
+        "iconLarge": {
+            "size": 31,
+            "lineHeight": 0.68,
+            "explicitLineHeight": 21.7,
             "letterSpacing": 0.0025,
             "weight": 660,
             "width": 100
