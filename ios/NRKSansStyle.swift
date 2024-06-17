@@ -8,7 +8,7 @@ import Foundation
 import UIKit
 
 #if os(iOS)
-public enum FontStyle: Hashable, CaseIterable {
+public enum FontStyle: Hashable, CaseIterable, Sendable {
     case largeTitle
     case title1
     case title2
@@ -212,7 +212,7 @@ public enum FontStyle: Hashable, CaseIterable {
     }
 }
 #elseif os(tvOS)
-public enum FontStyle: Hashable, CaseIterable {
+public enum FontStyle: Hashable, CaseIterable, Sendable {
     case largeTitle
     case title1
     case title2
