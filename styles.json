@@ -113,6 +113,14 @@
             "weight": 660,
             "width": 100
         },
+        "collectionLabel": {
+            "size": 11,
+            "lineHeight": 1.1,
+            "explicitLineHeight": 13,
+            "letterSpacing": 0.001,
+            "weight": 660,
+            "width": 100
+        },
         "icon": {
             "size": 11,
             "lineHeight": 0.74,
@@ -240,6 +248,14 @@
             "lineHeight": 1.2,
             "explicitLineHeight": 28,
             "letterSpacing": null,
+            "weight": 660,
+            "width": 100
+        },
+        "collectionLabel": {
+            "size": 23,
+            "lineHeight": 1.2,
+            "explicitLineHeight": 28,
+            "letterSpacing": 0.001,
             "weight": 660,
             "width": 100
         },
