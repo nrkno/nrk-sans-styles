@@ -31,6 +31,7 @@ function generateFontStyle(styleDef) {
         "subhead1": "subheadline",
         "subhead2": "subheadline",
         "label": "subheadline",
+        "collectionLabel": "subheadline",
         "icon": "subheadline",
         "iconLarge": "subheadline"
     }
