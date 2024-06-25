@@ -23,6 +23,7 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
     case caption1
     case caption2
     case label
+    case collectionLabel
     case icon
     case iconLarge
 
@@ -55,6 +56,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .caption2:
             return .caption2
         case .label:
+            return .subheadline
+        case .collectionLabel:
             return .subheadline
         case .icon:
             return .subheadline
@@ -92,6 +95,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .caption2:
             return 400
         case .label:
+            return 660
+        case .collectionLabel:
             return 660
         case .icon:
             return 660
@@ -130,6 +135,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
             return 11
         case .label:
             return 11
+        case .collectionLabel:
+            return 11
         case .icon:
             return 11
         case .iconLarge:
@@ -166,6 +173,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .caption2:
             return 1.3
         case .label:
+            return 1.1
+        case .collectionLabel:
             return 1.1
         case .icon:
             return 0.74
@@ -204,6 +213,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
             return nil
         case .label:
             return nil
+        case .collectionLabel:
+            return 0.10
         case .icon:
             return 0.0025
         case .iconLarge:
@@ -227,6 +238,7 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
     case caption1
     case caption2
     case label
+    case collectionLabel
     case icon
     case iconLarge
 
@@ -259,6 +271,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .caption2:
             return .caption2
         case .label:
+            return .subheadline
+        case .collectionLabel:
             return .subheadline
         case .icon:
             return .subheadline
@@ -297,6 +311,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
             return 400
         case .label:
             return 660
+        case .collectionLabel:
+            return 660
         case .icon:
             return 660
         case .iconLarge:
@@ -333,6 +349,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .caption2:
             return 23
         case .label:
+            return 23
+        case .collectionLabel:
             return 23
         case .icon:
             return 20
@@ -371,6 +389,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
             return 1.35
         case .label:
             return 1.2
+        case .collectionLabel:
+            return 1.2
         case .icon:
             return 0.68
         case .iconLarge:
@@ -408,6 +428,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
             return -0.002
         case .label:
             return nil
+        case .collectionLabel:
+            return 0.1
         case .icon:
             return 0.0025
         case .iconLarge:
