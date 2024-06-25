@@ -214,7 +214,7 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .label:
             return nil
         case .collectionLabel:
-            return 0.001
+            return 0.1
         case .icon:
             return 0.0025
         case .iconLarge:
@@ -429,7 +429,7 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .label:
             return nil
         case .collectionLabel:
-            return 0.001
+            return 0.1
         case .icon:
             return 0.0025
         case .iconLarge:
