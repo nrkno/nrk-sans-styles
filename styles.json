@@ -104,7 +104,15 @@
             "weight": 400,
             "width": 100
         },
-        "label": {
+        "label1": {
+            "size": 13,
+            "lineHeight": 1.1,
+            "explicitLineHeight": 13,
+            "letterSpacing": null,
+            "weight": 560,
+            "width": 80
+        },
+        "label2": {
             "size": 11,
             "lineHeight": 1.1,
             "explicitLineHeight": 13,
@@ -242,7 +250,15 @@
             "weight": 400,
             "width": 100
         },
-        "label": {
+        "label1": {
+            "size": 23,
+            "lineHeight": 1.2,
+            "explicitLineHeight": 28,
+            "letterSpacing": null,
+            "weight": 560,
+            "width": 80
+        },
+        "label2": {
             "size": 23,
             "lineHeight": 1.2,
             "explicitLineHeight": 28,
