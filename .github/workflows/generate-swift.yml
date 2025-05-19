@@ -13,3 +13,16 @@ jobs:
           script: |
             const generateSwift = require('./ios/iosgen.js');
             generateSwift(github, context, exec)
+      - name: Post new issue on nrk-tv-apple'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createIssue({
+              owner: context.repo.owner,
+              repo: 'nrk-tv-apple',
+              body: 'New version is available. Please update the SPM package.',
+              title: 'New version of nrk-sans-styles',
+              assignees: [
+                '@nrkno/apple-team'
+              ]
+            }) 
