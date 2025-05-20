@@ -21,7 +21,7 @@ jobs:
           script: |
             github.rest.issues.create({
               owner: context.repo.owner,
-              repo: nrkno/nrk-tv-apple,
+              repo: nrk-tv-apple,
               body: 'New version is available. Please update the SPM package.',
               title: 'New version of nrk-sans-styles',
               assignees: [
