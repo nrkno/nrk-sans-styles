@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - feature/pinging-nrk-tv-apple-on-new-versions 
 jobs:
   generate-ios-styles:
     runs-on: ubuntu-latest
