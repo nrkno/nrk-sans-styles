@@ -24,6 +24,11 @@ jobs:
               body: 'New version is available. Please update the SPM package.',
               title: 'New version of nrk-sans-styles',
               assignees: [
-                '@nrkno/apple-team'
-              ]
-            }) 
+                '@evjjan17',
+                '@yosritimraz',
+                '@zenangst',
+                '@thohalv',
+                '@egwenete',
+                '@StianFlatby',
+            ]
+          }) 
