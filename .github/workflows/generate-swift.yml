@@ -18,7 +18,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            github.rest.issues.createIssue({
+            github.rest.issues.create({
               owner: context.repo.owner,
               repo: 'nrk-tv-apple',
               body: 'New version is available. Please update the SPM package.',
