@@ -9,11 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/github-script@v6
+      - name: Generate Swift font definitions
+        uses: actions/github-script@v6
         with:
           script: |
             const generateSwift = require('./ios/iosgen.js');
-            generateSwift(github, context, exec)
+            generateSwift(github, context, exc)
       - name: Post new issue on nrk-tv-apple
         uses: actions/github-script@v6
         with:
