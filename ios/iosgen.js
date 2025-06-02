@@ -30,7 +30,8 @@ function generateFontStyle(styleDef) {
         "preamble": "body",
         "subhead1": "subheadline",
         "subhead2": "subheadline",
-        "label": "subheadline",
+        "label1": "subheadline",
+        "label2": "subheadline",
         "collectionLabel": "subheadline",
         "icon": "subheadline",
         "iconLarge": "subheadline"
