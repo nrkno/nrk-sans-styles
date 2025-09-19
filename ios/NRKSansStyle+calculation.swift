@@ -72,5 +72,28 @@ public extension FontStyle {
         guard let letterSpacingEm = letterSpacingEm else { return nil }
         return pointSize * letterSpacingEm
     }
+
+    var width: Int {
+        switch self {
+        case .largeTitle: return 100
+        case .title1: return 100
+        case .title2: return 100
+        case .title3: return 100
+        case .preamble: return 100
+        case .headline: return 100
+        case .body: return 100
+        case .callout: return 100
+        case .subhead1: return 100
+        case .subhead2: return 100
+        case .footnote: return 100
+        case .caption1: return 100
+        case .caption2: return 100
+        case .label1: return 80
+        case .label2: return 100
+        case .collectionLabel: return 100
+        case .icon: return 100
+        case .iconLarge: return 100
+        }
+    }
 }
 
