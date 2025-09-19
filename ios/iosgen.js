@@ -102,6 +102,18 @@ function generatePointSize(styleDef) {
     return buffer;
 }
 
+function generateWidth(styleDef) {
+    var buffer = "";
+
+    for (const key in styleDef) {
+        buffer += `
+        case .${key}:
+            return ${styleDef[key].width}`;
+    }
+
+    return buffer;
+}
+
 function expandTemplate(template, styles) {
     template = template.replace("<%casesiOS%>", generateCases(styles.responsive));
     template = template.replace("<%casestvOS%>", generateCases(styles.tv));
@@ -120,6 +132,9 @@ function expandTemplate(template, styles) {
 
     template = template.replace("<%pointSizeiOS%>", generatePointSize(styles.responsive));
     template = template.replace("<%pointSizetvOS%>", generatePointSize(styles.tv));
+
+    template = template.replace("<%widthiOS%>", generateWidth(styles.responsive));
+    template = template.replace("<%widthtvOS%>", generateWidth(styles.tv));
 
     return template;
 }
