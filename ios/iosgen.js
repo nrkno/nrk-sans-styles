@@ -145,13 +145,13 @@ function createDefinition(styles) {
     return expanded
 }
 
-async function generateSwift(github, context, exec) {
+async function generateSwift(github, context, exec, forced = false) {
     const styles = JSON.parse(fs.readFileSync('styles.json', 'utf8'));
 
     const originalFile = await fetchFile(github, context, 'ios/NRKSansStyle.swift');
     const newData = createDefinition(styles);
 
-    if (newData == originalFile.data) {
+    if (newData == originalFile.data && !forced) {
         console.log("No changes in generated file");
         return;
     }
@@ -167,6 +167,6 @@ async function generateSwift(github, context, exec) {
     });
 }
 
-module.exports = async (github, context, exec) => {
-    return generateSwift(github, context, exec);
+module.exports = async (github, context, exec, forced) => {
+    return generateSwift(github, context, exec, forced);
 }
