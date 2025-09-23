@@ -1,4 +1,4 @@
-name: Generate Swift font definitions
+name: Generate Swift font definitions FORCED
 on:
   workflow_dispatch:
 jobs:
