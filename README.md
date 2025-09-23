@@ -7,6 +7,7 @@ Most of the text styles of NRK Sans override the default attribute values of the
 ## How?
 
 As part of the build pipeline, the platforms should fetch the font-definitions from this repository.
+The ios/iosgen.js will only create changes in the template and definitions if NRKSansStyle.swift has changed compared with `main` branch.
 
 ## Format
 
