@@ -102,13 +102,20 @@ function generatePointSize(styleDef) {
     return buffer;
 }
 
-function generateWidth(styleDef) {
+function generateFontWidth(styleDef) {
     var buffer = "";
 
     for (const key in styleDef) {
-        buffer += `
-        case .${key}:
-            return ${styleDef[key].width}`;
+        const width = styleDef[key].width;
+        if (width === 80) {
+            buffer += `
+            case .${key}:
+                return .condensed`;
+        } else {
+            buffer += `
+            case .${key}:
+                return nil`;
+        }
     }
 
     return buffer;
@@ -133,8 +140,8 @@ function expandTemplate(template, styles) {
     template = template.replace("<%pointSizeiOS%>", generatePointSize(styles.responsive));
     template = template.replace("<%pointSizetvOS%>", generatePointSize(styles.tv));
 
-    template = template.replace("<%widthiOS%>", generateWidth(styles.responsive));
-    template = template.replace("<%widthtvOS%>", generateWidth(styles.tv));
+    template = template.replace("<%widthiOS%>", generateFontWidth(styles.responsive));
+    template = template.replace("<%widthtvOS%>", generateFontWidth(styles.tv));
 
     return template;
 }
