@@ -140,8 +140,8 @@ function expandTemplate(template, styles) {
     template = template.replace("<%pointSizeiOS%>", generatePointSize(styles.responsive));
     template = template.replace("<%pointSizetvOS%>", generatePointSize(styles.tv));
 
-    template = template.replace("<%widthiOS%>", generateFontWidth(styles.responsive));
-    template = template.replace("<%widthtvOS%>", generateFontWidth(styles.tv));
+    template = template.replace("<%fontWidthiOS%>", generateFontWidth(styles.responsive));
+    template = template.replace("<%fontWidthtvOS%>", generateFontWidth(styles.tv));
 
     return template;
 }

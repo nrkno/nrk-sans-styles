@@ -34,6 +34,11 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         switch self {<%kerningiOS%>
         }
     }
+
+    public var fontWidth: Font.Width? {
+        switch self {<%fontWidthiOS%>
+        }
+    }
 }
 #elseif os(tvOS)
 public enum FontStyle: Hashable, CaseIterable, Sendable {
@@ -60,6 +65,10 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
 
     public var letterSpacingEm: CGFloat? {
         switch self {<%kerningtvOS%>
+        }
+    }
+        public var fontWidth: Font.Width?{
+        switch self {<%fontWidthtvOS%>
         }
     }
 }
