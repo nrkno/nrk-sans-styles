@@ -35,6 +35,7 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         }
     }
 
+    @available(iOS 16, *)
     public var fontWidth: Font.Width? {
         switch self {<%fontWidthiOS%>
         }
@@ -68,6 +69,7 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         }
     }
 
+    @available(tvOS 16, *)
     public var fontWidth: Font.Width?{
         switch self {<%fontWidthtvOS%>
         }
