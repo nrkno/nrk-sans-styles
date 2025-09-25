@@ -6,6 +6,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 #if os(iOS)
 public enum FontStyle: Hashable, CaseIterable, Sendable {
@@ -233,44 +234,45 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         }
     }
 
+    @available(iOS 16.0, *)
     public var fontWidth: Font.Width? {
         switch self {
-            case .largeTitle:
-                return nil
-            case .title1:
-                return nil
-            case .title2:
-                return nil
-            case .title3:
-                return nil
-            case .preamble:
-                return nil
-            case .headline:
-                return nil
-            case .body:
-                return nil
-            case .callout:
-                return nil
-            case .subhead1:
-                return nil
-            case .subhead2:
-                return nil
-            case .footnote:
-                return nil
-            case .caption1:
-                return nil
-            case .caption2:
-                return nil
-            case .label1:
-                return .condensed
-            case .label2:
-                return nil
-            case .collectionLabel:
-                return nil
-            case .icon:
-                return nil
-            case .iconLarge:
-                return nil
+        case .largeTitle:
+            return nil
+        case .title1:
+            return nil
+        case .title2:
+            return nil
+        case .title3:
+            return nil
+        case .preamble:
+            return nil
+        case .headline:
+            return nil
+        case .body:
+            return nil
+        case .callout:
+            return nil
+        case .subhead1:
+            return nil
+        case .subhead2:
+            return nil
+        case .footnote:
+            return nil
+        case .caption1:
+            return nil
+        case .caption2:
+            return nil
+        case .label1:
+            return .condensed
+        case .label2:
+            return nil
+        case .collectionLabel:
+            return nil
+        case .icon:
+            return nil
+        case .iconLarge:
+            return nil
         }
     }
 }
@@ -499,44 +501,46 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
             return 0.0025
         }
     }
-        public var fontWidth: Font.Width?{
+    
+    @available(iOS 16.0, *)
+    public var fontWidth: Font.Width?{
         switch self {
-            case .largeTitle:
-                return nil
-            case .title1:
-                return nil
-            case .title2:
-                return nil
-            case .title3:
-                return nil
-            case .preamble:
-                return nil
-            case .headline:
-                return nil
-            case .body:
-                return nil
-            case .callout:
-                return nil
-            case .subhead1:
-                return nil
-            case .subhead2:
-                return nil
-            case .footnote:
-                return nil
-            case .caption1:
-                return nil
-            case .caption2:
-                return nil
-            case .label1:
-                return .condensed
-            case .label2:
-                return nil
-            case .collectionLabel:
-                return nil
-            case .icon:
-                return nil
-            case .iconLarge:
-                return nil
+        case .largeTitle:
+            return nil
+        case .title1:
+            return nil
+        case .title2:
+            return nil
+        case .title3:
+            return nil
+        case .preamble:
+            return nil
+        case .headline:
+            return nil
+        case .body:
+            return nil
+        case .callout:
+            return nil
+        case .subhead1:
+            return nil
+        case .subhead2:
+            return nil
+        case .footnote:
+            return nil
+        case .caption1:
+            return nil
+        case .caption2:
+            return nil
+        case .label1:
+            return .condensed
+        case .label2:
+            return nil
+        case .collectionLabel:
+            return nil
+        case .icon:
+            return nil
+        case .iconLarge:
+            return nil
         }
     }
 }

@@ -6,6 +6,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 #if os(iOS)
 public enum FontStyle: Hashable, CaseIterable, Sendable {
@@ -35,6 +36,7 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         }
     }
 
+    @available(iOS 16, *)
     public var fontWidth: Font.Width? {
         switch self {<%fontWidthiOS%>
         }
@@ -67,7 +69,9 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         switch self {<%kerningtvOS%>
         }
     }
-        public var fontWidth: Font.Width?{
+
+    @available(tvOS 16, *)
+    public var fontWidth: Font.Width?{
         switch self {<%fontWidthtvOS%>
         }
     }
