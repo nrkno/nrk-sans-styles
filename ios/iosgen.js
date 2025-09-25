@@ -109,12 +109,12 @@ function generateFontWidth(styleDef) {
         const width = styleDef[key].width;
         if (width === 80) {
             buffer += `
-            case .${key}:
-                return .condensed`;
+        case .${key}:
+            return .condensed`;
         } else {
             buffer += `
-            case .${key}:
-                return nil`;
+        case .${key}:
+            return nil`;
         }
     }
 
