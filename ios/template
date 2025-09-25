@@ -67,7 +67,8 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         switch self {<%kerningtvOS%>
         }
     }
-        public var fontWidth: Font.Width?{
+
+    public var fontWidth: Font.Width?{
         switch self {<%fontWidthtvOS%>
         }
     }

@@ -73,16 +73,4 @@ public extension FontStyle {
         guard let letterSpacingEm = letterSpacingEm else { return nil }
         return pointSize * letterSpacingEm
     }
-
-
-    @available(iOS 16.0, *)
-    var fontWidth: Font.Width? {
-        switch self {
-        case .label1:
-            return .condensed
-        default:
-            return nil
-        }
-    }
 }
-
