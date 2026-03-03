@@ -181,9 +181,9 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .caption2:
             return 1.3
         case .label1:
-            return 1.1
+            return 1
         case .label2:
-            return 1.1
+            return 1
         case .collectionLabel:
             return 1.1
         case .icon:
@@ -449,9 +449,9 @@ public enum FontStyle: Hashable, CaseIterable, Sendable {
         case .caption2:
             return 1.35
         case .label1:
-            return 1.2
+            return 1
         case .label2:
-            return 1.2
+            return 1
         case .collectionLabel:
             return 1.2
         case .icon:
