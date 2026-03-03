@@ -114,8 +114,8 @@
         },
         "label2": {
             "size": 11,
-            "lineHeight": 1.1,
-            "explicitLineHeight": 13,
+            "lineHeight": 1,
+            "explicitLineHeight": 11,
             "letterSpacing": null,
             "weight": 660,
             "width": 100
@@ -260,8 +260,8 @@
         },
         "label2": {
             "size": 23,
-            "lineHeight": 1.2,
-            "explicitLineHeight": 28,
+            "lineHeight": 1,
+            "explicitLineHeight": 23,
             "letterSpacing": null,
             "weight": 660,
             "width": 100
