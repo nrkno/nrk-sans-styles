@@ -106,7 +106,7 @@
         },
         "label1": {
             "size": 13,
-            "lineHeight": 1.1,
+            "lineHeight": 1,
             "explicitLineHeight": 13,
             "letterSpacing": null,
             "weight": 560,
@@ -114,8 +114,8 @@
         },
         "label2": {
             "size": 11,
-            "lineHeight": 1.1,
-            "explicitLineHeight": 13,
+            "lineHeight": 1,
+            "explicitLineHeight": 11,
             "letterSpacing": null,
             "weight": 660,
             "width": 100
@@ -252,16 +252,16 @@
         },
         "label1": {
             "size": 23,
-            "lineHeight": 1.2,
-            "explicitLineHeight": 28,
+            "lineHeight": 1,
+            "explicitLineHeight": 23,
             "letterSpacing": null,
             "weight": 560,
             "width": 80
         },
         "label2": {
             "size": 23,
-            "lineHeight": 1.2,
-            "explicitLineHeight": 28,
+            "lineHeight": 1,
+            "explicitLineHeight": 23,
             "letterSpacing": null,
             "weight": 660,
             "width": 100

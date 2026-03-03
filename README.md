@@ -2,7 +2,7 @@
 
 ## Why?
 
-Most of the text styles of NRK Sans override the default attribute values of the font. This repository _(alongside Figma)_ should be considered the truth when it comes to these attributes.
+Most of the text styles of NRK Sans override the default attribute values of the font. This repository _(alongside [Figma](https://www.figma.com/design/fGIFO3OhimVi3yjX7QmKv5Ou/NRK-TV-Core-2.1?node-id=0-16&m=dev))_ should be considered the truth when it comes to these attributes.
 
 ## How?
 
